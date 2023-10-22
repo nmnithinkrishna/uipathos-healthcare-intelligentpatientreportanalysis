@@ -7,7 +7,7 @@ Welcome to our open-source healthcare transformation project **"Doctor's Assista
 1. Streamlining Access to Extensive Patient Medical Reports: Simplifying the retrieval and management of high-volume, extensive patient medical records for healthcare professionals.
 2. Facilitating Cross-Collaboration Among Healthcare Providers: Enhancing collaboration and communication among healthcare professionals to improve patient care and reduce fragmented experiences.
 
-**Architecture**
+📐 **Architecture**
 ------
 ![image](https://github.com/nmnithinkrishna/uipathos-healthcare-intelligentpatientreportanalysis/assets/26877977/119be559-b63d-4d88-b90f-9945aa092f7a)
 

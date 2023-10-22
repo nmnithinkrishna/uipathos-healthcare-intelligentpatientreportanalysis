@@ -1,0 +1,94 @@
+{
+  "name": "Doctor_Assistant",
+  "projectId": "84da74c5-cc19-46de-98af-3c33c16dbdba",
+  "description": "Build a process that supports real-time communication with Apps",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.DocumentUnderstanding.Activities": "2.3.1-preview",
+    "UiPath.Excel.Activities": "[2.20.3]",
+    "UiPath.System.Activities": "[23.4.2]",
+    "UiPath.UIAutomation.Activities": "[23.4.8]",
+    "UiPath.WorkflowEvents.Activities": "[2.0.0]"
+  },
+  "webServices": [],
+  "entitiesStores": [
+    {
+      "serviceDocument": ".entities/EntitiesStore.json",
+      "tenantName": "DefaultTenant",
+      "namespace": "Doctor_Assistant",
+      "uniqueReference": "UuBxFdDImzAqnEEmV5l/kosQj45aBvlHrfHoB6TMTng="
+    }
+  ],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.10.0.0",
+  "projectVersion": "1.0.3-alpha.23",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": true,
+    "requiresUserInteraction": false,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": true,
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "be9705e2-a2c4-4a25-aecf-7ce86baabdbd",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "invokedWorkflows\\GetPatientSummary.xaml",
+      "uniqueId": "1a4d7d41-d7b1-44ce-bea2-6e696c7230cc",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "invokedWorkflows\\SearchPatient.xaml",
+      "uniqueId": "388c3b12-a1ff-4689-8003-40c01919d7a9",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "invokedWorkflows\\SyncChats.xaml",
+      "uniqueId": "91dd8b4f-0bdc-47fd-b6d5-c014da5814c5",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "invokedWorkflows\\ValidatePatient.xaml",
+      "uniqueId": "1bcd7b2b-90aa-45f9-af65-5b20e5d4f2f3",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

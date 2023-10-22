@@ -1,0 +1,14 @@
+This UiPath Studio project aims to be an example as well as a template for those who are looking to implement a real time communication between UiPath Apps and UiPath automations. This zip file contains the UiPath Studio project, the .uiapp file to be deployed on your organization tenant and this README file that explains you how to use this feature and this example.
+
+How to use
+
+1. Start from this template in UiPath Studio 2023.4 or above. It contains the following files:
+	- Main.xaml - used to start the triggering mechanism
+	- internal\appTrigger.xaml - used for real-time communication between UiPath App and this automation
+	- invokedWorkflows\example1.xamle - the xaml that will be invoked by the app.
+You will find more information about how things work on each of the XAML files. You can use this as a template for future projects.
+2. Publish the project to your personal workspace
+3. Import the file appExample\Apps - Workflow communication demo.uiapp to a new App
+4. After importing, edit the UiPath App. You will se that there is an error as it cannot find the process. Click on the 3 dots next to the process and hit Replace. Search for the newly published process and select it.
+5. Hit Preview.
+6. Enjoy the magic
